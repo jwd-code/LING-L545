@@ -1,7 +1,9 @@
 import pyconll
 
+
 train_path = 'C:\\Users\\Jerem\\Downloads\\UD_Japanese-GSD-master\\UD_Japanese-GSD-master\\ja_gsd-ud-train.conllu'
 test_path = 'C:\\Users\\Jerem\\Documents\\Fall 2022\\L-545\\Practicals\\maxmatch\\testfile.txt'
+output_path = 'C:\\Users\\Jerem\\Documents\\Fall 2022\\L-545\\Practicals\\maxmatch\\hypothesis.txt'
 
 corpus = pyconll.iter_from_file(train_path)
 
@@ -11,9 +13,6 @@ for sentence in corpus:
         dictionary.append(token.form)
 
 sorted_dict = sorted(dictionary, key=len, reverse=True)
-
-
-
 
 test_file = open(test_path, 'r', encoding='utf-8')
 
@@ -34,8 +33,19 @@ def maxmatch(sentence, dictionary):
 
     return list(first_word) + maxmatch(remainder, dictionary)
 
-for line in test_file:
-    x = (maxmatch(line, sorted_dict))
-    print(x)
 
-print('DONE')
+def create_hyp(test_file, output_path):
+    hyp_file = open(output_path, 'a', encoding='utf-8')
+    for num, line in enumerate(test_file):
+        sent = (maxmatch(line, sorted_dict))
+        # new_sent = [x for x in sent if x != '\n']
+        new_sent = ' '.join(sent)
+        print(num+1, new_sent)
+        hyp_file.write(new_sent)
+
+    hyp_file.close()
+    print("DONE")
+
+
+create_hyp(test_file=test_file, output_path=output_path)
+
