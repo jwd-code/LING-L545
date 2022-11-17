@@ -1,5 +1,25 @@
 # Suicidal Ideation Detection in Italian Tweets
 
+Progress:
+- Created the script/pipeline to scrape Tweets from Twitter API
+- Collected list of phrases/keywords to use as queries for the API
+- Contacted Italian mental health professional/doctor to double check the list of phrases
+- Started collecting some Tweets and taking preliminary looks at the data
+
+To Do:
+- Development criteria to annotate Tweets as either 'suicidal' or 'not-suicidal'
+- Collect Tweets
+- Annotate Tweets
+- Create models
+
+
+
+
+
+
+
+Description of the project:
+
 According to the World Health Organization (2022), there is an estimated number of 700,000 deaths by suicide each year. As people tend to use social media to express their thoughts and feelings in real time, some online posts can include content related to depression, suicide, and self-harm. The aim of this project is to develop a machine learning classifier to detect suicidal ideation in Tweets in Italian, a language for which, to my current knowledge, no suicidal ideation detectors have been created. This has potential use cases as being implemented into social media platforms to allow for suicide prevention or intervention.  
 
 The data collection process includes carefully curating a list of keyword phrases that are often used in the expression of depression or suicidal ideation, and then inputting these phrases into a Twitter scraper that I have already created to automatically download, preprocess and store tweets that contain these phrases. These phrases will be created by translating the most common phrases used to express depression or suicidal ideation in English and other romance languages. Ideally, these phrases will be double checked by Italian domain specialist to ensure that they are accurate representations of how native speakers would express suicidal ideation. Examples of such phrases in English would be: “kill myself”, “I hate my life”, “ready to die”, “don’t want to exist” etc. (Valdez 2020). 
