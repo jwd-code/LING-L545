@@ -4,7 +4,7 @@ Progress:
 - Created the script/pipeline to scrape Tweets from Twitter API
 - Collected list of phrases/keywords to use as queries for the API
 - Contacted Italian mental health professional/doctor to double check the list of phrases
-- Collected over 1000 Tweets by using the keyword phrase list evaluated by the Italian mental health professional
+- Collected over 2000 Tweets by using the keyword phrase list evaluated by the Italian mental health professional
 
 To Do:
 - Development criteria to annotate Tweets as either 'suicidal' or 'not-suicidal'
