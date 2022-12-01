@@ -1,0 +1,139 @@
+"<Carlos>"
+	"carlosalatorre@enron" X Typo=Yes
+	"Carlos" PROPN Number=Sing
+"<always>"
+	"always" ADV
+"<wanted>"
+	"want" VERB Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin
+	"want" VERB Mood=Ind Number=Sing Person=2 Tense=Past VerbForm=Fin
+	"want" VERB Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin
+	"want" VERB Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin
+	"want" VERB Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin
+	"want" VERB Tense=Past VerbForm=Part
+"<to>"
+	"to" VERB VerbForm=Inf SELECT:15
+;	"to" PART SELECT:15
+;	"to" ADP SELECT:15
+;	"to" SCONJ SELECT:15
+;	"too" ADV Typo=Yes SELECT:15
+;	"to" NOUN Number=Sing SELECT:15
+;	"the" DET Definite=Def PronType=Art Typo=Yes SELECT:15
+;	"_" X SELECT:15
+"<visit>"
+	"visit" VERB VerbForm=Inf SELECT:16
+	"visit" VERB Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin SELECT:16
+	"visit" VERB Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin SELECT:16
+	"visit" VERB Mood=Imp VerbForm=Fin SELECT:16
+;	"visit" NOUN Number=Sing SELECT:16
+"<the>"
+	"the" DET Definite=Def PronType=Art SELECT:19
+;	"that" PRON PronType=Rel Typo=Yes SELECT:19
+;	"they" PRON Case=Nom Number=Plur Person=3 PronType=Prs Typo=Yes SELECT:19
+;	"than" ADP Typo=Yes SELECT:19
+;	"to" PART Typo=Yes SELECT:19
+;	"to" ADP Typo=Yes SELECT:19
+"<Grand>"
+	"Grand" PROPN Number=Sing
+	"Grand" ADJ Degree=Pos
+	"grand" ADJ Degree=Pos
+"<Canyon>"
+	"Canyon" PROPN Number=Sing
+"<,>"
+	"," PUNCT
+"<and>"
+	"and" CCONJ SELECT:20
+;	"a" DET Typo=Yes SELECT:20
+;	"and" X SELECT:20
+;	"on" ADP Typo=Yes SELECT:20
+;	"as" ADP Typo=Yes SELECT:20
+"<recently>"
+	"recently" ADV
+"<he>"
+	"he" PRON Case=Nom Gender=Masc Number=Sing Person=3 PronType=Prs
+"<received>"
+	"receive" VERB Mood=Ind Number=Sing Person=3 Tense=Past VerbForm=Fin
+	"receive" VERB Tense=Past VerbForm=Part
+	"receive" VERB Tense=Past VerbForm=Part Voice=Pass
+	"receive" VERB Mood=Ind Number=Plur Person=1 Tense=Past VerbForm=Fin
+	"receive" VERB Mood=Ind Number=Sing Person=1 Tense=Past VerbForm=Fin
+	"receive" VERB Mood=Ind Number=Sing Person=2 Tense=Past VerbForm=Fin
+	"receive" VERB Mood=Ind Number=Plur Person=3 Tense=Past VerbForm=Fin
+"<the>"
+	"the" DET Definite=Def PronType=Art SELECT:18
+;	"that" PRON PronType=Rel Typo=Yes SELECT:18
+;	"they" PRON Case=Nom Number=Plur Person=3 PronType=Prs Typo=Yes SELECT:18
+;	"than" ADP Typo=Yes SELECT:18
+;	"to" PART Typo=Yes SELECT:18
+;	"to" ADP Typo=Yes SELECT:18
+"<chance>"
+	"chance" NOUN Number=Sing
+"<to>"
+	"to" PART
+	"to" ADP
+	"to" SCONJ
+	"too" ADV Typo=Yes
+	"to" NOUN Number=Sing
+	"to" VERB VerbForm=Inf
+	"the" DET Definite=Def PronType=Art Typo=Yes
+	"_" X
+"<hike>"
+	"*hike"
+"<some>"
+	"some" DET
+	"some" ADV
+	"someone" PRON Number=Sing PronType=Ind Typo=Yes
+"<of>"
+	"of" ADP
+	"of" SCONJ
+	"of" ADP ExtPos=ADV
+	"of" ADV
+	"or" CCONJ Typo=Yes
+	"have" AUX VerbForm=Inf
+	"off" ADP Typo=Yes
+"<the>"
+	"the" DET Definite=Def PronType=Art
+	"that" PRON PronType=Rel Typo=Yes
+	"they" PRON Case=Nom Number=Plur Person=3 PronType=Prs Typo=Yes
+	"than" ADP Typo=Yes
+	"to" PART Typo=Yes
+	"to" ADP Typo=Yes
+"<trails>"
+	"*trails"
+"<and>"
+	"and" CCONJ
+	"a" DET Typo=Yes
+	"and" X
+	"on" ADP Typo=Yes
+	"as" ADP Typo=Yes
+"<take>"
+	"take" VERB VerbForm=Inf
+	"take" VERB Mood=Sub Number=Sing Person=3 Tense=Pres VerbForm=Fin
+	"take" VERB Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin
+	"take" VERB Mood=Ind Number=Plur Person=1 Tense=Pres VerbForm=Fin
+	"take" VERB Mood=Imp VerbForm=Fin
+	"take" NOUN Number=Sing
+	"take" VERB Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin
+	"take" VERB Mood=Ind Number=Sing Person=1 Tense=Pres VerbForm=Fin
+	"take" VERB Mood=Sub Number=Sing Person=2 Tense=Pres VerbForm=Fin
+"<several>"
+	"several" ADJ Degree=Pos
+"<panoramic>"
+	"*panoramic"
+"<photographs>"
+	"photograph" NOUN Number=Plur
+"<during>"
+	"during" ADP
+	"during" ADV
+"<his>"
+	"his" PRON Case=Gen Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs
+	"this" DET
+	"his" PRON Gender=Masc Number=Sing Person=3 Poss=Yes PronType=Prs
+"<visit>"
+	"visit" VERB VerbForm=Inf SELECT:17
+	"visit" VERB Mood=Ind Number=Sing Person=2 Tense=Pres VerbForm=Fin SELECT:17
+	"visit" VERB Mood=Ind Number=Plur Person=3 Tense=Pres VerbForm=Fin SELECT:17
+	"visit" VERB Mood=Imp VerbForm=Fin SELECT:17
+;	"visit" NOUN Number=Sing SELECT:17
+"<.>"
+	"." PUNCT
+
